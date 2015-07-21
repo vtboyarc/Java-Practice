@@ -1,0 +1,7 @@
+
+public class Application {
+	public static void main(String[] args) {
+		//input can be whatever I want to call the variable
+		Scanner input;
+	}
+}
