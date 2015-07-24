@@ -1,0 +1,23 @@
+public class App {
+	public static void main(String[] args) {
+		//makes an array and gives it memory for 3 string objects
+		String[] words = new String[3];
+		
+		words[0] = "Hello";
+		words[1] = "to";
+		words[2] = "you";
+		
+		System.out.println(words[2]);
+		
+		String[] fruits = {"Apple", "banana", "pear", "kiwi"};
+		
+		//sets a string variable named fruit, and it iterates through each item in the fruits array
+		for(String fruit: fruits) {
+			System.out.println(fruit);
+		}
+		
+		int value = 0;
+		
+		String text;
+	}
+}
