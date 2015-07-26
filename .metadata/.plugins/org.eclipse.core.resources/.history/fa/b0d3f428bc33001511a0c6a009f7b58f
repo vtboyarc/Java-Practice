@@ -1,0 +1,16 @@
+public class App {
+	public static void main(String[] args) {
+		
+		//one dimension array
+		int[] values = {3, 5, 2343};
+		
+		System.out.println(values[2]);
+		
+		//multi-dimensional, each element in the array, is another array
+		int[][] grid = {
+				{3, 5, 2343},
+				{2, 4},
+				{1,2,3,4}
+		};
+	}
+}
