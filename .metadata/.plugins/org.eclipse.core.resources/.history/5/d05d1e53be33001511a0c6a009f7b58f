@@ -1,0 +1,11 @@
+//a class is a blueprint for creating objects
+class Person {
+	
+}
+
+//only can have one public class in your file
+public class App {
+	public static void main(String[] args) {
+		
+	}
+}

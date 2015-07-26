@@ -1,0 +1,8 @@
+
+
+//only can have one public class in your file
+public class App {
+	public static void main(String[] args) {
+		
+	}
+}
