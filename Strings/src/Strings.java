@@ -18,7 +18,7 @@ public class Strings {
 		System.out.println("Hello" + " " + "Adam" ); //concatontation 
 		
 		System.out.println("My integer is: " + myInt);
-		
+		//sysout contrl+space auto fill
 		double myNum = 7.8;
 		System.out.println("My number is " + myNum + ".");
 		

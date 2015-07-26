@@ -1,0 +1,12 @@
+public class App {
+	public static void main(String[] args) {
+		
+		int[] values;
+		values = new int[3]; //says, allocate memory to the values array, to be able to hold 3 integers
+		
+		System.out.println(values[0]);
+		
+		values[0] = 10;
+		System.out.println(values[0]);
+	}
+}

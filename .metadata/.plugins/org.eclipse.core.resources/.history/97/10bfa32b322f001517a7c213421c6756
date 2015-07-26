@@ -1,0 +1,11 @@
+
+public class Application {
+	public static void main(String[] args) {
+		int value = 10;
+		
+		boolean loop = value < 20;
+		
+		//as long as what is in here is true, the loop will run
+		while(value < 10)
+	}
+}

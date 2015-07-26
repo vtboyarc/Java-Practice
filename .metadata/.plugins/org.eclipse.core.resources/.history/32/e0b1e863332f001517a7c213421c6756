@@ -1,0 +1,9 @@
+
+public class Application {
+	public static void main(String[] args) {
+		for(int i=0; i < 5;) { //as long as condition is true, loop will run
+			System.out.println("Hello");
+		}
+	}
+
+}

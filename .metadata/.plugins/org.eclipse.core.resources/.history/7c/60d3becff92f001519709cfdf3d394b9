@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+
+public class Application {
+	public static void main(String[] args) {
+		//input can be whatever I want to call the variable
+		// control + shift + o adds all necessary imports
+		Scanner input = new Scanner(System.in); //creates new scanner object, passes input stream object
+		System.out.println("Enter a line of text");
+		String line = input.nextLine();
+	}
+}

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+
+public class Application {
+	public static void main(String[] args) {
+		//input can be whatever I want to call the variable
+		// control + shift + o adds all necessary imports
+		Scanner input = new Scanner(System.in);
+	}
+}
