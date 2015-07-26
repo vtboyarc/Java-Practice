@@ -1,0 +1,28 @@
+class Person {
+	String name;
+	int age;
+	
+	void speak() {
+		System.out.println("My name is: " + name);
+	}
+	
+	void caclulateYearsToRetirement() {
+		int yearsLeft = 65 - age;
+		
+		System.out.println(yearsLeft);
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+		
+		Person person1 = new Person();
+		
+		person1.name = "Adam";
+		person1.age = 26;
+		
+		person1.speak();
+		person1.caclulateYearsToRetirement();
+
+	}
+}
