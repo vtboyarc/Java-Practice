@@ -14,15 +14,8 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
-	<section name="RefactoringWizard.preview">
-		<item value="400" key="height"/>
-		<item value="600" key="width"/>
-	</section>
-<<<<<<< HEAD
 	<section name="quick_assist_proposal_size">
 	</section>
-=======
->>>>>>> 3b866707f720ca4ac2d3c8da77aea94a3cb8bdfa
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
 		<item value="true" key="create_unimplemented"/>

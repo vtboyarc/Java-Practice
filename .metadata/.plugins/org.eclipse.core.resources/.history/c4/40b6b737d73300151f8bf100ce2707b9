@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Person {
+	String name;
+	int age;
+	String eyeColor;
+	
+}
+
+public class App {
+	public static void main(String[] args) {
+		
+		Scanner question = new Scanner(System.in);
+
+	}
+}

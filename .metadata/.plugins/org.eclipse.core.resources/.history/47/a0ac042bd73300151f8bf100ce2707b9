@@ -1,0 +1,12 @@
+class Person {
+	String name;
+	int age;
+	String eyeColor;
+	
+}
+
+public class App {
+	public static void main(String[] args) {
+
+	}
+}
