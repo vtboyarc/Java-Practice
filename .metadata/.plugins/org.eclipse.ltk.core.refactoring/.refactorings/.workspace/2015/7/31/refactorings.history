@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Statid and Final&apos; to &apos;Static and Final&apos;&#x0A;- Original element: &apos;Statid and Final&apos;&#x0A;- Renamed element: &apos;Statid and Final&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Statid and Final&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Statid and Final" name="Static and Final" references="true" stamp="1438127811613" version="1.0"/>
+</session>

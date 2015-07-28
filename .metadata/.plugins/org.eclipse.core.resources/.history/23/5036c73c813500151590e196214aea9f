@@ -1,0 +1,20 @@
+
+class Thing {
+	public String name;
+	public static String description;
+}
+
+public class App {
+	public static void main(String[] args) {
+		
+		Thing thing1 = new Thing();
+		Thing thing2 = new Thing();
+		
+		thing1.name = "Bob";
+		thing2.name = "Sue";
+		
+		System.out.println(thing1.name);
+		System.out.println(thing2.name);
+		
+	}
+}

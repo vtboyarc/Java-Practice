@@ -1,6 +1,7 @@
 class Frog {
 	String name;
 	int age;
+	String type;
 	
 	//public void setName(String newName) {
 		//name = newName;
@@ -15,6 +16,15 @@ class Frog {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	public void setType(String type) {
+		this.type = type;
+	}
+	
+	public String getType() {
+		return type;
+	}
+	
 	
 	//these two methods simply get and return the value of the 2 above variables 
 	//don't need 'this' in here, because there's no parameter being passed in, no conflicts
@@ -45,6 +55,10 @@ public class App {
 		//this calls the set name method, which takes a String as a parameter
 		frog1.setName("Bertie");
 		frog1.setAge(1);
+		frog1.setType("huge robot");
+		System.out.println(frog1.age);
+		System.out.println(frog1.type);
+		
 		
 		
 		
