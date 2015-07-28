@@ -1,0 +1,27 @@
+class Machine {
+	private String name;
+	
+	//constructors don't have a return type
+	//constructors have to have the same name as your class
+	//you can have multiple constructors with the same method name, as long as
+	//the parameters being passed in are different
+	//constructors runs every time an object is created, as in machine1 below
+	public Machine() {
+		System.out.println("Constructor running");
+		
+		name = "Arnie";
+	}
+	public Machine(String name) {
+		System.out.println("Second constructor running");
+		this.name = name;
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+		Machine machine1 = new Machine();
+		
+		//can also do this to invoke constructors, does same thing as above code
+		//new Machine();
+	}
+}

@@ -1,0 +1,15 @@
+class Machine {
+	private String name;
+	
+	//constructors don't have a return type
+	//constructors have to have the same name as your class
+	public Machine() {
+		System.out.println("Constructor running");
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+		Machine machine1 = new Machine();
+	}
+}
