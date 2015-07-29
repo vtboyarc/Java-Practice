@@ -1,0 +1,21 @@
+public class App {
+	public static void main(String[] args) {
+		String[] words = new String[3];
+		
+		words[0] = "wat";
+		words[1] = "huh";
+		words[2] = "helloo";
+		
+		System.out.println(words[1]);
+		
+		
+		int myInt = 25;
+		
+		if(myInt < 30) {
+			System.out.println("Number is smaller than 30!");
+		}
+		else {
+			System.out.println("Number is bigger than 30");
+		}
+	}
+}
