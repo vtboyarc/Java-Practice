@@ -1,0 +1,10 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		String[] anArray = new String[5];
+		anArray[0] = "First item in the array";
+		
+		
+	}
+}

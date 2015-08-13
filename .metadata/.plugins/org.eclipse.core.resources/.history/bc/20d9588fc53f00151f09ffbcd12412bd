@@ -1,0 +1,32 @@
+class Dog {
+	String type;
+	String furColor;
+	int age;
+	
+	void bark() {
+		System.out.println("woof!");
+	}
+}
+
+
+public class App {
+	public static void main(String[] args) {
+		
+		String[] anArray = new String[5];
+		anArray[0] = "First item in the array";
+		System.out.println(anArray[0]);
+		
+		for(int i=0; i<10; i++) {
+			System.out.printf("The value of i is: %d\n", i);
+		}
+		
+		int myNum = 0;
+		
+		while(myNum < 20) {
+			System.out.println("The value of myNum is: " + myNum);
+			myNum++;
+		}
+		
+		
+	}
+}
