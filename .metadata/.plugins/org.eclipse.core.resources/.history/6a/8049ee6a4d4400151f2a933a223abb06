@@ -1,0 +1,17 @@
+
+//implements is for using an Interface, in this case, the Info interface
+//will give an error, click on it, need to Add unimplemented methods
+public class Machine implements Info {
+	
+	private int id = 7;
+
+	public void start() {
+		System.out.println("Machine started");
+	}
+
+	@Override
+	public void showInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+}

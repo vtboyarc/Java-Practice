@@ -1,0 +1,15 @@
+
+public class App {
+	public static void main(String[] args) {
+
+		Machine mach1 = new Machine();
+		mach1.start();
+		
+		//we can pass in Bob because we have the constructor set to take a string param
+		//in the Person class
+		Person person1 = new Person("Bob");
+		person1.greet();
+		
+		//can't use an Interface with the 'new' keyword, because has to be followed by class name
+	}
+}

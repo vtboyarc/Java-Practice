@@ -1,0 +1,17 @@
+
+public class Person {
+
+	private String name;
+	
+	//right click, source, generate constructor using fields
+	public Person(String name) {
+		super();
+		this.name = name;
+	}
+
+
+
+	public void greet() {
+		System.out.println("Hello there");
+	}
+}

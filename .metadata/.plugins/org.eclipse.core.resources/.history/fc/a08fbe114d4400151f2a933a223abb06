@@ -1,0 +1,4 @@
+//right click on the project, instead of new class, did new Interface
+public interface Info {
+
+}
