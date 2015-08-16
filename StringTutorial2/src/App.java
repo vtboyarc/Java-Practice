@@ -23,6 +23,13 @@ public class App {
 		System.out.println(frog1);
 		System.out.println(frog2);
 		
+		for(int x =0; x <10; x++) {
+			System.out.println(x);
+		
+		
+			
+		}
+		
 		
 	}
 }
