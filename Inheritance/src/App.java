@@ -12,6 +12,12 @@ public class App {
 		car1.wipeWindShield();
 		car1.stop();
 		
+		Car honda = new Car();
+		
+		honda.wipeWindShield();
+		honda.start();
+		honda.stop();
+		
 		
 	}
 }

@@ -1,0 +1,9 @@
+
+public class Plant {
+	//this is bad practice, having it public. Should encapsulate, hide away
+	public String name;
+	
+	public Plant() {
+		name = "Freddy";
+	}
+}

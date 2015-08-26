@@ -20,4 +20,10 @@ public class Person implements Info {
 	public void showInfo() {
 		System.out.println("Person name is: " + name);		
 	}
+
+
+	public void hideInfo() {
+		System.out.println("Person " + name + "info is now hidden");
+		
+	}
 }

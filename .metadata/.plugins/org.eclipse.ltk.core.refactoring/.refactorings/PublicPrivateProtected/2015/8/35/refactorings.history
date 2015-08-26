@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;PublicPrivateProtected/src/world&apos;&#x0A;- Original project: &apos;PublicPrivateProtected&apos;&#x0A;- Destination element: &apos;PublicPrivateProtected/src/world&apos;&#x0A;- Original elements:&#x0A;     Plant.java&#x0A;     Oak.java&#x0A;     Field.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;world" element1="/src&lt;{Plant.java" element2="/src&lt;{Oak.java" element3="/src&lt;{Field.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1440547218909" units="3" version="1.0"/>
+</session>

@@ -14,4 +14,9 @@ public class Machine implements Info {
 	public void showInfo() {
 		System.out.println("Machine ID is: " + id);
 	}
+
+	public void hideInfo() {
+		System.out.println("Machine ID " + id + "is now hidden");
+		
+	}
 }
