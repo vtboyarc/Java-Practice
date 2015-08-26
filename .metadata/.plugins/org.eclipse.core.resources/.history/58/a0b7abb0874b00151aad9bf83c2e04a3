@@ -1,0 +1,4 @@
+//terminology: Tree is a child class of Plant
+public class Tree extends Plant {
+
+}
