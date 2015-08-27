@@ -1,6 +1,0 @@
-
-//this makes car a child class of Machine, ie, it inherits from Machine
-public class Car extends Machine {
-
-	
-}

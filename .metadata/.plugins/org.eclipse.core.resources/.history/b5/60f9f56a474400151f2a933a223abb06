@@ -1,9 +1,0 @@
-
-//this makes car a child class of Machine, ie, it inherits from Machine
-//therefore, Car now has all the methods in Machine class, and can be used on a Car object
-public class Car extends Machine {
-	public void wipeWindShield() {
-		System.out.println("Wiping windshield");
-	}
-	
-}
