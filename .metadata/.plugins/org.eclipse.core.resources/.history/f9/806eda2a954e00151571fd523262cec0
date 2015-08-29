@@ -1,0 +1,13 @@
+import java.io.File;
+
+
+
+public class App {
+	public static void main(String[] args) {
+		String fileName = "/Users/adamcarter/Desktop/example.txt";
+		
+		File textFile = new File(fileName);
+		
+		
+	}
+}
