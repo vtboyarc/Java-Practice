@@ -33,7 +33,6 @@ public class App {
 			e.printStackTrace();
 		} 
 		
-		//You have to handle the child exception before the parent!! So FileNotFoundException first
 		try {
 			test.input();
 		} catch (FileNotFoundException e) {
