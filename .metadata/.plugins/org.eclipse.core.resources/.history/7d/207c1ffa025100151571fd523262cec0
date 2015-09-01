@@ -1,0 +1,9 @@
+//two basic kinds of exceptions in Java:
+// Runtime and Checked
+public class App {
+	public static void main(String[] args) {
+		
+		//Checked excpteions, you are forced to handle
+		Thread.sleep(111);
+	}
+}

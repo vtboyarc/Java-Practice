@@ -1,0 +1,7 @@
+//two basic kinds of exceptions in Java:
+// Runtime and Checked
+public class App {
+	public static void main(String[] args) {
+		
+	}
+}

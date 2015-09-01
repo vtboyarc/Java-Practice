@@ -1,0 +1,18 @@
+//two basic kinds of exceptions in Java:
+// Runtime and Checked
+public class App {
+	public static void main(String[] args) {
+		
+		/*Checked exceptions, you are forced to handle
+		try {
+			Thread.sleep(111);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		*/
+		
+		//Unchecked exceptions, also known as runtime exceptions, you aren't forced to handle
+		
+	}
+}
