@@ -1,0 +1,18 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		//we can do all this on these objects, because Machine has these setters set up
+		//and the camere and car classes extends machine
+		Camera cam1 = new Camera();
+		
+		cam1.setID(5);
+		
+		Car car1 = new Car();
+		
+		car1.setID(4);
+		
+		
+	
+	}
+}
