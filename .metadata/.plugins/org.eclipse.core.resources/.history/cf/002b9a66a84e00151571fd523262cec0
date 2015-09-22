@@ -1,9 +1,0 @@
-
-
-public class App {
-	public static void main(String[] args) {
-
-		//File is a Java class
-		File file = new File
-	}
-}

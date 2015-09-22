@@ -1,9 +1,0 @@
-
-public class Plant {
-	
-	public String name;
-	
-	public Plant() {
-		name = "Freddy";
-	}
-}

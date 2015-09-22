@@ -1,0 +1,37 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+
+public class App {
+	public static void main(String[] args) {
+		
+		//created a text file, right click on project, new, file 
+		File file = new File("test.txt");
+		
+		try {
+			FileReader fr = new FileReader(file);
+			BufferedReader br = new BufferedReader(fr);
+			
+			//we are creating this as a reference to point to each line in the file
+			String line;
+			
+			//buffered reader go through each line, so setting String Line to this,
+			//allows us to print out lines of the file by using the line variable
+			
+			//until 
+			while(  (line = br.readLine()) != null ); {
+				System.out.println(line);
+			}
+			
+			
+			
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found: " + file.toString());
+		} catch (IOException e) {
+			System.out.println("Unable to read file: " + file.toString());
+		}
+	}
+}
