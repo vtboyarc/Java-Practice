@@ -1,0 +1,18 @@
+
+public class Robot {
+
+	private int id;
+	
+	class Brain {
+		
+	}
+
+	public Robot(int id) {
+		this.id = id;
+	}
+	
+	public void start() {
+		System.out.println("Starting robot " + id);
+	}
+
+}
