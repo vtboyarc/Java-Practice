@@ -1,0 +1,19 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		Animal animal = Animal.CAT;
+		
+		switch(animal) {
+		case CAT:
+			break;
+		case DOG:
+			break;
+		case MOUSE:
+			break;
+		default:
+			break;
+		
+		}
+	}
+}

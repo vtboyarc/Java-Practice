@@ -1,0 +1,10 @@
+//right click on project, new > enum
+
+public enum Animal {
+	//cat, dog, and mouse, are now objects of type Animal
+	CAT, DOG, MOUSE;
+	
+	private Animal() {
+		
+	}
+}

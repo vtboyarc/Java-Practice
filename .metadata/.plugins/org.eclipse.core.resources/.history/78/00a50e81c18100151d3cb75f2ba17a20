@@ -1,0 +1,27 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		//from the enum class we created, Animal.java
+		Animal animal = Animal.CAT;
+		
+		//just start with switch(animal) and brackets, click yellow warning,
+		//double click add missing case statements
+		//we add in the sysouts on our own
+		switch(animal) {
+		case CAT:
+			System.out.println("Cat");
+			break;
+		case DOG:
+			System.out.println("Dog");
+			break;
+		case MOUSE:
+			break;
+		default:
+			break;
+		
+		}
+		//way to see what class an object belongs to
+		System.out.println(Animal.DOG.getClass());
+	}
+}
