@@ -1,0 +1,17 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		calculate(4);
+	}
+	
+	private static void calculate(int value) {
+		
+		System.out.println(value);
+		
+		//calling a method in itself can result in stack overflow
+		//so have to be careful with recursion, need to stop it
+		calculate(value -1);
+		
+	}
+}

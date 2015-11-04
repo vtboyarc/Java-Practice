@@ -1,0 +1,25 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		//E.g factorial of 4 = 4 * 3 *2 * 1
+		//can use recursion to get factorials of numbers
+		
+		
+		calculate(4);
+	}
+	
+	private static int calculate(int value) {
+		
+		System.out.println(value);
+		
+		//calling a method in itself can result in stack overflow
+		//so have to be careful with recursion, need to stop it
+		
+		if(value == 1) {
+			return 1;
+		}
+		return calculate(value -1) * value;
+		
+	}
+}
