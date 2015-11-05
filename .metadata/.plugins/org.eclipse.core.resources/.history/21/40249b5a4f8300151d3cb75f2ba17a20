@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+
+public class App {
+	public static void main(String[] args) {
+		//specificy in the carrots what type the array is
+		//numbers is the name of this Array, can be whatever we want to
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+	}
+}

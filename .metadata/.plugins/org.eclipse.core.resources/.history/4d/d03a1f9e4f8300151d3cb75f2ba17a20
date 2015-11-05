@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+
+public class App {
+	public static void main(String[] args) {
+		//specificy in the carrots what type the array is
+		//numbers is the name of this Array, can be whatever we want to
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		
+		//index 0
+		numbers.add(10);
+		
+		//index 1
+		numbers.add(100);
+		
+		//index 2
+		numbers.add(40);
+		
+		//will print out 10, the value of index 0
+		System.out.println(numbers.get(0));
+	}
+}
