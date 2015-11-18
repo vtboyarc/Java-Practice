@@ -1,0 +1,10 @@
+import java.util.HashMap;
+
+
+public class App {
+	public static void main(String[] args) {
+
+		//maps store pairs of keys and values
+		HashMap map = new HashMap();
+	}
+}
