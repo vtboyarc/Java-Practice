@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class App {
+	public static void main(String[] args) {
+		
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+		
+		//keys and values will stay in same order they are added, unlike the above HashMap
+		LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
+		
+		//TreeMap sorts the values you add to it, in natural order (low to high, alphabetical)
+		TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
+		
+		
+	}
+}

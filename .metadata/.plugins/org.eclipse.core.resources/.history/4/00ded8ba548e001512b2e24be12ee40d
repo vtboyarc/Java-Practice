@@ -1,0 +1,14 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class App {
+	public static void main(String[] args) {
+		
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+		
+		//keys and values will stay in same order they are added, unlike the above HashMap
+		LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
+		
+		
+	}
+}
