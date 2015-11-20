@@ -1,0 +1,20 @@
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+
+public class App {
+	public static void main(String[] args) {
+		
+		Map<String, Integer> map = new LinkedHashMap<String, Integer>();
+		
+		//keys in a map (unlike the values) are unique. so the last item doesn't count as a new thing
+		map.put("one", 1);
+		map.put("two", 2);
+		map.put("three", 3);
+		map.put("one", 1);
+		
+		for(String key: map.keySet()) {
+			System.out.println(key + ": " + map.get(key));
+		}
+	}
+}
