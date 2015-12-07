@@ -1,0 +1,13 @@
+import java.util.LinkedList;
+
+
+public class App {
+public static void main(String[] args) {
+	
+	LinkedList<String> animals = new LinkedList<String>();
+	
+	for(String animal: animals) {
+		System.out.println(animal);
+	}
+}
+}
