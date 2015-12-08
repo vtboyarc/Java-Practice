@@ -1,0 +1,14 @@
+public class App {
+	public static void main(String[] args) {
+
+		// making an object from the UrlLibrary class
+		UrlLibrary urlLibrary = new UrlLibrary();
+
+		// for String url in urlLibrary, the object we created above
+		// this will print out everything we stored in the Constructor in the
+		// UrlLibrary class
+		for (String url : urlLibrary) {
+			System.out.println(url);
+		}
+	}
+}

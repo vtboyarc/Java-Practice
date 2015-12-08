@@ -1,0 +1,13 @@
+import java.util.LinkedList;
+
+
+public class UrlLibrary {
+	private LinkedList<String> urls = new LinkedList<String>();
+	
+	//Constructor
+	public UrlLibrary() {
+		urls.add("http://www.google.com");
+		urls.add("http://www.facebook.com");
+		urls.add("http://www.gizmodo.com");
+	}
+}

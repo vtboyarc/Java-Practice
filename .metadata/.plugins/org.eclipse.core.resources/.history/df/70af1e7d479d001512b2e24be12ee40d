@@ -1,0 +1,21 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+
+public class UrlLibrary implements Iterable<String> {
+	private LinkedList<String> urls = new LinkedList<String>();
+	
+	//Constructor
+	public UrlLibrary() {
+		urls.add("http://www.google.com");
+		urls.add("http://www.facebook.com");
+		urls.add("http://www.gizmodo.com");
+	}
+
+	//added this by clicking error on the class after implementing iterable,
+	//chose to add unimplemented methods
+	@Override
+	public Iterator<String> iterator() {
+		return urls.iterator();
+	}
+}
