@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public int getInitialValue() {
+		int number = 5;
+
+		number += 4;
+
+		return number;
+	}
+}

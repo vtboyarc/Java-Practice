@@ -1,0 +1,14 @@
+
+public class App {
+	public static void main(String[] args) {
+		
+		int value = 7;
+		
+		System.out.println("Starting");
+		
+		System.out.println("Incrementing value");
+		
+		System.out.println("Finishing");
+	}
+	
+}

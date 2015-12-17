@@ -1,0 +1,17 @@
+
+public class Test {
+
+	//need to have a method to use the step into button in debugging
+	public int getInitialValue() {
+		int number = 5;
+
+		number += 4;
+
+		return number;
+	}
+	
+	public void doStuff(int number) {
+		number = number - 6;
+		System.out.println(number);
+	}
+}
