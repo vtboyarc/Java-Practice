@@ -5,7 +5,7 @@ public class App {
 	public static void main(String[] args) {
 
 		// maps store pairs of keys and values
-		// you need to specifiy what kinds of objects you want to store in it
+		// you need to specify what kinds of objects you want to store in it
 		HashMap<Integer, String> map = new HashMap<Integer, String>();
 
 		// puts these into the Map
