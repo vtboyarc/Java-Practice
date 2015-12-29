@@ -1,0 +1,14 @@
+package com;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class Treets {
+	// method "save" that takes an array of Treet called treets
+	public static void save(Treet[] treets) {
+		try (FileOutputStream fos = new FileOutputStream("treets.serial");
+				ObjectOutputStream oos = new ObjectOutputStream(fos);) {
+
+		}
+	}
+}

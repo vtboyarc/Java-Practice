@@ -1,0 +1,10 @@
+package com;
+
+import java.io.*;
+
+public class Treets {
+	//method "save" that takes an array of Treet called treets
+	public static void save(Treet[] treets) {
+		
+	}
+}
