@@ -43,3 +43,29 @@ todo //respond to emails is now gone from the todo Array
 todo.count //returns the number of items in the Array
 
 
+
+///////// Dictionaries ie hash maps in Java//////////
+// Does not preserve the order you added them
+//Don't use a dictionary if order matters
+
+/* 
+
+Airpport Code                Airport Name
+(Key)                       (Value)
+(LGA)                       (La Guardia)
+(CDG)                       (Charles De Gaulle)
+(HKG)                       (Hong Kong)
+
+
+*/
+// Key: value
+//: [String: String] is not necessary
+//hold option key, and then click on a variable name to see info about it
+let airportCodes: [String: String] = ["LGA": "La Guardia",
+    "CDG": "Charles De Gaulle",
+    "HKG": "Hong Kong"
+]
+
+
+
+
