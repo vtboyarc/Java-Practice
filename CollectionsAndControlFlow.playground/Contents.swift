@@ -42,6 +42,10 @@ todo //respond to emails is now gone from the todo Array
 
 todo.count //returns the number of items in the Array
 
+// Dealing with non-existent data
+
+// gives an error, there is nothing at index 5
+//let lastItem = todo[5]
 
 
 ///////// Dictionaries ie hash maps in Java//////////
@@ -61,10 +65,52 @@ Airpport Code                Airport Name
 // Key: value
 //: [String: String] is not necessary
 //hold option key, and then click on a variable name to see info about it
-let airportCodes: [String: String] = ["LGA": "La Guardia",
+var airportCodes: [String: String] = ["LGA": "La Guardia",
     "CDG": "Charles De Gaulle",
     "HKG": "Hong Kong"
 ]
+
+// Read from a dictionary
+
+// pass in the key for the value you want...case matters
+airportCodes ["LGA"]
+
+// Inserting Key Value Pairs into an exiting Dictionary
+
+//tell it the key you want for it, followed by that keys value
+airportCodes ["SYD"] = "Sydney Airport"
+
+airportCodes //now shows the new key and value we added above
+
+// Since LGA key already exists, this changes the value to "Derp"
+airportCodes ["LGA"] = "Derp"
+
+airportCodes
+
+// Method to update a key, or if it doesn't exist, creates new one
+airportCodes.updateValue("Dublin Airport", forKey: "DUB")
+
+// Removing Key Value Pairs
+
+// assigning nil, tells swift we want the value of HGK to be nothing, and it removes it
+airportCodes["HGK"] = nil
+
+//swift method that removes a key and its value
+airportCodes.removeValueForKey("DUB")
+
+
+// Dealing with non-existing data
+
+let airporName = airportCodes["LGA"]
+airporName.dynamicType // Shhows that it is an Optional String
+
+//assigns value of nil, because we don't have this key in the dictionary
+let orlandoAirport = airportCodes["MCO"]
+
+
+
+
+
 
 
 
