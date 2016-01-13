@@ -53,6 +53,91 @@ repeat {
     counter++
 } while counter < 1
 
+//// If Statement/////
+
+
+
+var temperature = 9
+
+if temperature < 12 {
+    print("Better wear a coat!")
+} else if temperature < 18 {
+    print("It is getting chilly")
+}
+else {
+    print("It is warm")
+}
+
+
+//// Logical Operators /////
+
+if temperature > 7 && temperature < 12 {
+    print("Might want to wear a scarf with that jacket")
+}
+
+var isRaining: Bool = true
+var isSnowing: Bool = false
+
+if isRaining || isSnowing {
+    print("Better wear boots")
+}
+
+if !isRaining {
+    print("Yay it isn't raining")
+}
+
+if isRaining && isSnowing && temperature < 2 {
+    print("Put some gloves on!")
+}
+
+//// Switch Statements /////
+
+
+let airportCodes = ["LGA", "LHR", "CDG", "HKG", "DXB", "LGW", "JFK", "ORY"]
+
+//convention to name it the singular of the array you are iterating through
+for airportCode in airportCodes {
+    switch airportCode {
+    case "LGA", "JFK": print("New York")
+    case "LHR", "LGW": print("London")
+    case "CDG", "ORY": print("Paris")
+    case "HKG": print("Hong Kong")
+    default: print("I don't know what city this airport is in")
+    }
+}
+
+import Foundation
+
+var randomTemperature = Int(arc4random_uniform(UInt32(150)))
+
+switch randomTemperature {
+case 0..<32: print("Forget it, stay inside")
+case 32...45: print("Wear a jacket")
+case 45..<70: print("A little chilly")
+case 70...100: print("It is hot out")
+default: print("It is really hot dude")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
