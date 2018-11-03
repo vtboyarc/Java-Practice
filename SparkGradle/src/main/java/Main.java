@@ -1,3 +1,5 @@
+import model.DataStructureDAO;
+import model.SimpleDataDAO;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
@@ -8,6 +10,8 @@ import static spark.Spark.*;
 
 public class Main {
     public static void main(String[] args) {
+        staticFileLocation("/public");
+        DataStructureDAO dao = new SimpleDataDAO();
 
         get("/", (req, res) -> {
             Map<String, String> model = new HashMap<>();
