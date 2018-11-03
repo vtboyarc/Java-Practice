@@ -20,11 +20,12 @@ public class App {
 													// items in the array
 			System.out.println(values[i]);
 		}
-		
-		//you can create new array and initialize it with values at the same time on one line
-		int[] numbers = {5, 6, 7};
-		
-		for(int i=0; i<numbers.length; i++) {
+
+		// you can create new array and initialize it with values at the same time on
+		// one line
+		int[] numbers = { 5, 6, 7 };
+
+		for (int i = 0; i < numbers.length; i++) {
 			System.out.println(numbers[i]);
 		}
 	}
