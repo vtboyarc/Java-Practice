@@ -8,11 +8,16 @@
     <title>Spark Server</title>
 </head>
 <body>
-    <h1>Welcome Friend</h1>
+    {{#if username }}
+        <h1>Welcome, {{ username }}!</h1>
+    {{ else }}
+        <h1>Welcome Friend</h1>
 
-    <form action="/sign-in" method="post">
-        <input type="text" placeholder="What is your username?" name="username">
-        <button>Sign in</button>
-    </form>
+        <form action="/sign-in" method="post">
+            <input type="text" placeholder="What is your username?" name="username">
+            <button>Sign in</button>
+        </form>
+    {{/if}}
+
 </body>
 </html>
