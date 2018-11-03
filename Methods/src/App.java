@@ -8,6 +8,7 @@ class Person {
 	//Instance variables (data or "state")
 	String name;
 	int age;
+	int dob;
 	
 	//methods start lower case
 	//you have to call the method somewhere to make it run

@@ -49,7 +49,11 @@ class ForLoops {
 		System.out.printf("The value of i is: %d\n", i); //%d means print but replace with the value of i 
 		// \n does new line
 	}
-}}
+}
+	
+}
+
+
 
 
 
