@@ -7,4 +7,6 @@ public interface DataStructureDAO {
 
     List<DataStructure> findAll();
 
+    DataStructure findBySlug(String slug);
+
 }
