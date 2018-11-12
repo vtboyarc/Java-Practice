@@ -1,4 +1,4 @@
-package com.adamcarter.giflib.controller;
+package com.adamcarter.giflib.web.controller;
 
 import com.adamcarter.giflib.data.GifRepository;
 import com.adamcarter.giflib.model.Gif;
