@@ -1,19 +1,30 @@
 package io.adamcarter.giflib.model;
 
-public class Category {
-    private int id;
-    private String name;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Category(int id, String name) {
-        this.id = id;
-        this.name = name;
+@Entity
+public class Category {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+    private String colorCode;
+
+    @OneToMany(mappedBy = "category")
+    private List<Gif> gifs = new ArrayList<>();
+
+    public Category() {
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
