@@ -1,15 +1,11 @@
 package io.adamcarter.giflib.web.controller;
 
-import io.adamcarter.giflib.data.CategoryRepository;
-import io.adamcarter.giflib.data.GifRepository;
+
 import io.adamcarter.giflib.model.Category;
-import io.adamcarter.giflib.model.Gif;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
+import io.adamcarter.giflib.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -18,32 +14,26 @@ import java.util.List;
 @Controller
 public class CategoryController {
     @Autowired
-    private SessionFactory sessionFactory;
+    private CategoryService categoryService;
 
-    @Autowired
-    private CategoryRepository categoryRepository;
 
-    @Autowired
-    private GifRepository gifRepository;
-
+    // Index of all categories
     @SuppressWarnings("unchecked")
     @RequestMapping("/categories")
     public String listCategories(Model model) {
-        Session session = sessionFactory.openSession();
-        List<Category> categories = session.createCriteria(Category.class).list();
+        List<Category> categories = categoryService.findAll();
 
         model.addAttribute("categories", categories);
         return "category/index";
     }
 
-    @RequestMapping("/category/{id}")
-    public String category(@PathVariable int id, ModelMap modelMap) {
-        Category category = categoryRepository.findById(id);
-        modelMap.put("category", category);
+    // Single category page
+    @RequestMapping("/categories/{categoryId}")
+    public String category(@PathVariable Long categoryId, Model model) {
+        Category category = null;
 
-        List<Gif> gifs = gifRepository.findByCategoryId(id);
-        modelMap.put("gifs", gifs);
+        model.addAttribute("category",category);
 
-        return "category";
+        return "category/details";
     }
 }
