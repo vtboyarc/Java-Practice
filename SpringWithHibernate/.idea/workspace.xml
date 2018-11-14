@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa3ed5a-a2cf-4634-b4fa-f25d4aa895aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/adamcarter/giflib/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/adamcarter/giflib/config/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/adamcarter/giflib/config/DataConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/adamcarter/giflib/config/TemplateConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/adamcarter/giflib/web/controller/CategoryController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/giflib.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/giflib.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/data/CategoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/data/GifRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/GifController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/GifController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/category/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/category/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/category/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/category/form.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -123,8 +116,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="html" value="1" />
-          <entry key="java" value="24" />
+          <entry key="html" value="2" />
+          <entry key="java" value="25" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -132,8 +125,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="24" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="25" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -142,7 +135,7 @@
         <counts>
           <entry key="gradle" value="181" />
           <entry key="html" value="22" />
-          <entry key="java" value="1360" />
+          <entry key="java" value="1921" />
           <entry key="properties" value="255" />
         </counts>
       </usages-collector>
@@ -150,7 +143,7 @@
         <counts>
           <entry key="Groovy" value="181" />
           <entry key="HTML" value="22" />
-          <entry key="JAVA" value="1360" />
+          <entry key="JAVA" value="1921" />
           <entry key="Properties" value="255" />
         </counts>
       </usages-collector>
@@ -163,18 +156,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/model/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/GifServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,18 +197,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/GifDao.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/GifDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="495">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#516#546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,12 +217,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="308">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#869#899#0" expanded="true" />
               </folding>
             </state>
@@ -257,13 +233,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
@@ -704,14 +679,15 @@
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/model/Gif.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/model/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/category/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/GifController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/GifServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/GifDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/category/form.html" />
+        <option value="$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java" />
       </list>
     </option>
   </component>
@@ -960,12 +936,12 @@
       <workItem from="1541789083461" duration="734000" />
       <workItem from="1542035780021" duration="145000" />
       <workItem from="1542036078603" duration="447000" />
-      <workItem from="1542036869244" duration="8352000" />
+      <workItem from="1542036869244" duration="9735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22873000" />
+    <option name="totallyTimeSpent" value="24256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1260" height="763" extended-state="0" />
@@ -1150,19 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#395#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1189,20 +1152,6 @@
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1244,16 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#869#899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/GifController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1271,8 +1210,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/GifDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/GifServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/GifDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1285,12 +1244,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/service/GifServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/GifDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/dao/CategoryDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/category/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/adamcarter/giflib/web/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
