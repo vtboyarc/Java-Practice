@@ -21,22 +21,11 @@ public class GifDaoImpl implements GifDao {
         Session session = sessionFactory.openSession();
 
         // DEPRECATED as of Hibernate 5.2.0
-        // List<Gif> gifs = session.createCriteria(Gif.class).list();
-
-        // Create CriteriaBuilder
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-
-        // Create CriteriaQuery
-        CriteriaQuery<Gif> criteria = builder.createQuery(Gif.class);
-
-        // Specify criteria root
-        criteria.from(Gif.class);
-
-        // Execute query
-        List<Gif> gifs = session.createQuery(criteria).getResultList();
+        List<Gif> gifs = session.createCriteria(Gif.class).list();
 
         session.close();
         return gifs;
+
     }
 
     @Override

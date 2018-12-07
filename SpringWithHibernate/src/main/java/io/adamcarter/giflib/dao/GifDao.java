@@ -1,6 +1,6 @@
 package io.adamcarter.giflib.dao;
 
-import com.teamtreehouse.giflib.model.Gif;
+import io.adamcarter.giflib.model.Gif;
 
 import java.util.List;
 
