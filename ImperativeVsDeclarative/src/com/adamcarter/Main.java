@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+    
 
     public static void main(String[] args) {
         List<String> ingredients = Arrays.asList(
@@ -33,5 +34,9 @@ public class Main {
         if (ingredients.contains("eggs")) {
             System.out.println("Sorry, it has eggs");
         }
+
+
+        // succinct way of printing each ingredient using a lambda
+        ingredients.forEach(ingredient -> System.out.println(ingredient));
     }
 }
