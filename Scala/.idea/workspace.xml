@@ -22,23 +22,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="sc" value="1" />
-          <entry key="scala" value="4" />
+          <entry key="scala" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="5" />
+          <entry key="Scala" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sc" value="58" />
-          <entry key="scala" value="1039" />
+          <entry key="scala" value="1437" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="1097" />
+          <entry key="Scala" value="1495" />
         </counts>
       </usages-collector>
     </session>
@@ -63,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SuperHero.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collections/SuperHeroes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -99,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/Villain.scala" />
         <option value="$PROJECT_DIR$/src/SuperHeroes.scala" />
         <option value="$PROJECT_DIR$/src/SuperHero.scala" />
+        <option value="$PROJECT_DIR$/src/collections/SuperHeroes.scala" />
       </list>
     </option>
   </component>
@@ -136,6 +146,12 @@
               <item name="Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,6 +163,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collections" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +183,7 @@
   </component>
   <component name="RunManager">
     <configuration name="run main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="SuperHeroes" />
+      <option name="MAIN_CLASS_NAME" value="collections.SuperHeroes" />
       <module name="Scala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544910794902</updated>
-      <workItem from="1544910798755" duration="2023000" />
+      <workItem from="1544910798755" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2023000" />
+    <option name="totallyTimeSpent" value="3692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1260" height="763" extended-state="0" />
@@ -193,7 +214,7 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -230,13 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SuperHeroes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Villain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -248,6 +262,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SuperHeroes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/SuperHeroes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
