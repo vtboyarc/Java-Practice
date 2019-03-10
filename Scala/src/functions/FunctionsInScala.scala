@@ -56,7 +56,7 @@ object FunctionsInScala {
 
 
     // closures with Scala
-    
+
     var prefix = "Lightning "
 
     def reverseIt(name: String) = (name + prefix).reverse
